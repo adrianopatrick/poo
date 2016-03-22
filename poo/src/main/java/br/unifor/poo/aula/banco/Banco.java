@@ -1,6 +1,6 @@
 package br.unifor.poo.aula.banco;
 
-public class Banco {
+public final class Banco {
 	
 	private String nome;
 	
