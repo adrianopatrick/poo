@@ -2,6 +2,7 @@ package br.unifor.poo.construtores;
 
 public class A {
 
+	enum estacoes {PRIMAVERA, VERAO, OUTONO, INVERNO};
 	public A() {
 		System.out.println("Estou em A, construtor padrao");
 	}

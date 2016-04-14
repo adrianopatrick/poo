@@ -1,18 +1,23 @@
 package br.unifor.poo.aula;
 
-import java.util.Scanner;
+public class Retangulo extends Figura{
 
-public class Retangulo {
+	private Integer base;
+	private Integer altura;
 	
-	//1 - Receber pontos
-		//1.1 - validar se os pontos se sobrepoem
-	//2 - validar se é retangulo
-	//3 - validar se interceptam
-	
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		String sexo = scan.next();
-		System.out.println(sexo);
+	public Retangulo(Integer base, Integer altura) {
+		this.base = base;
+		this.altura = altura;
 	}
 
+	public Integer calcularArea(){
+		return base * altura;
+	}
+
+	@Override
+	public void desenhar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
