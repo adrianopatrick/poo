@@ -1,8 +1,12 @@
 package br.unifor.poo.aula.banco;
 
-public final class Banco {
+public class Banco {
 	
 	private String nome;
+	
+	public Banco(String nome) {
+		this.nome = nome;
+	}
 	
 	//métodos acessores
 	public String getNome() {
